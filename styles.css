@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.6;
+    background-color: #61204c;
+    margin: 0;
+    padding: 20px;
+}
+
+.first, .second, .third, .fourth, .fifth {
+    background-color: #fafda5;
+    color: #d1428a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fourth img {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.bold {
+    font-weight: bold;
+}
